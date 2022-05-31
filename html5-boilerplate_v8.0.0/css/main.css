@@ -45,7 +45,7 @@ body {
 }
 .social-links {
   max-height: 400px;
-  display:flex;
+  display: flex;
 }
 /*
  * A better looking default horizontal rule
