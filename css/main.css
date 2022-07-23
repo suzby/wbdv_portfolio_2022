@@ -18,7 +18,9 @@ html {
   font-family: 'Spline Sans Mono', monospace;
  
 }
-
+social-links {
+  max-width: 20px;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

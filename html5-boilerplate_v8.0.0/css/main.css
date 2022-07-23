@@ -47,6 +47,13 @@ body {
   max-height: 400px;
   display: flex;
 }
+.main-links {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style: square;
+}
 /*
  * A better looking default horizontal rule
  */
