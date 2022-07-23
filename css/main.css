@@ -16,11 +16,17 @@ html {
   font-size: 1em;
   line-height: 1.4;
   font-family: 'Spline Sans Mono', monospace;
- 
+  background-color: #cdd3da;
 }
-social-links {
-  max-width: 20px;
+
+.splitzies {
+  display: flex;
 }
+
+.splitzies > div {
+  width: 50%;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -32,23 +38,40 @@ social-links {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #3f5876;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #c3fcb3;;
   text-shadow: none;
 }
-
 body {
   width: 90%;
   margin: auto;
 }
-.social-links {
-  max-height: 400px;
-  display:flex;
+img {
+  filter: drop-shadow(5px 5px 1px yellow);
+  border: 12px solid whitesmoke;
+
 }
+.social-links {
+  display:flex;
+  margin-top: 20%;
+ 
+}
+.social-links > a {
+ max-width: 60px;
+ color: greenyellow;
+ background-color: blueviolet;
+ outline-offset: 15px;
+ padding: 5px 4px 2px 4px;
+}
+.social-links > a:hover {
+  color: yellow;
+}
+
+
 /*
  * A better looking default horizontal rule
  */
